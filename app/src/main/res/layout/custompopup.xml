@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:background="@drawable/contact"
+    android:padding="35dp"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="15dp"
+    android:layout_gravity="center">
+
+
+
+    <!-- Row 1 -->
+
+    <!-- Column 1 -->
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="14dp"
+        android:text="Contact Us"
+        android:textColor="#492f2f"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_below="@+id/textView18"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="2dp"
+        android:text="Plot no-266, Luis Road near Monorama Plaza, Bhubaneswar,Odisha"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="166dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="8dp"
+        android:text="+91 8342888881"
+        android:textColor="#000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="15dp"
+        android:text="aitbbsr123@gmail.com"
+        android:textColor="#000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="58dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="http://www.assureindia.in/" />
+
+    <ImageView
+        android:layout_marginTop="33dp"
+           android:layout_marginLeft="211dp"
+        android:id="@+id/imageView4"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ait" />
+
+
+</LinearLayout>
+
+
+

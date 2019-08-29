@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.UsersFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bar"
+            android:background="?android:attr/windowBackground">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/windowBackground"
+                android:id="@+id/toolbar">
+
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/ic_search"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/sear"
+                    android:textSize="22dp"
+                    android:hint="Search..."
+                    android:layout_marginStart="10dp" />
+
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <Button
+            android:id="@+id/module1"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/bar"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text=        "Computer Fundas
+                         (module-1)"
+            android:background="#e96f6f"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/module2"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="#6e6ec2b7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/module1"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text=" Administration documents (module-2)"
+            android:textColor="#000"
+            android:textSize="24dp" />
+        <Button
+            android:id="@+id/module3"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/module2"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="adminitration advance (module-3)"
+            android:background="#6e8b6ec2"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/module4"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/module3"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="finance and accounting (module-4)"
+            android:background="#6e50a744"
+
+            android:textColor="#000"
+            android:textSize="24dp" />
+        <Button
+            android:id="@+id/module5"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/module4"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="Database management (module-5)"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:background="#6e892656"
+            />
+
+        <Button
+            android:id="@+id/module6"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/module5"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="network management      (module-6)"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:background="#6e892626" />
+
+        <Button
+            android:id="@+id/module7"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/module6"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="pim
+              (module-7)"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:background="#6e5c2689" />
+        <Button
+            android:id="@+id/module8"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/module7"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="supprting graphics
+            (module-8)"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:background="#6e772689" />
+        <Button
+            android:id="@+id/module9"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/module8"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="advanced graphics
+            (module-9)"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:background="#6e894c26" />
+        <Button
+            android:id="@+id/module10"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/module9"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text=" applications programming (module-10)"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:background="#6e708926" />
+        <Button
+            android:id="@+id/module11"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/module10"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="project management (module-11)"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:background="#6e268953" />
+
+
+        <Button
+            android:id="@+id/module12"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/module11"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="personality development (module-12)"
+            android:textColor="#000"
+            android:textSize="24dp"
+            android:background="#6e352689"
+            android:layout_marginBottom="19dp"/>
+    </RelativeLayout>
+</ScrollView>

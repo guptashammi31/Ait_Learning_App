@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Edu AIT</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string-array name="cityname">
+        <item>--Select your city--</item>
+        <item>ANGUL</item>
+        <item>BALASORE</item>
+        <item>BOLANGIR</item>
+        <item>BARGARH</item>
+        <item>BHADRAK</item>
+        <item>BOUDH</item>
+        <item>CUTTACK</item>
+        <item>DHENKANAL</item>
+        <item>DEOGARH</item>
+        <item>GAJAPATI</item>
+        <item>GANJAM</item>
+        <item>JAJPUR</item>
+        <item>JAGATSINGHPUR</item>
+        <item>JHARSUGUDA</item>
+        <item>KEONJHAR</item>
+        <item>KANDHAMAL</item>
+        <item>KHURDA</item>
+        <item>KORAPUT</item>
+        <item>KENDRAPADA</item>
+        <item>KALAHANDI</item>
+        <item>MALKANGIRI</item>
+        <item>MAYURBHANJ</item>
+        <item>NAYAGARH</item>
+        <item>NUAPADA</item>
+        <item>NABARANGPUR</item>
+        <item>PURI</item>
+        <item>SAMBALPUR</item>
+        <item>RAYAGADA</item>
+        <item>SONEPUR</item>
+        <item>SUNDARGARH</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="module_name">
+        <item>--Select your city--</item>
+        <item>module1</item>
+        <item>module2</item>
+        <item>module3</item>
+        <item>module4</item>
+        <item>module5</item>
+        <item>module6</item>
+        <item>module7</item>
+        <item>module8</item>
+        <item>module9</item>
+        <item>module10</item>
+        <item>module11</item>
+        <item>module12</item>
+
+
+
+    </string-array>
+</resources>

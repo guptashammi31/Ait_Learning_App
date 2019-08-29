@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/offices"
+    tools:context="com.live.ravi.chatdummy.AdminViewActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:background="@drawable/gradient_bg" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/upgallery"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_alignLeft="@+id/uppdf"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/uppdf"
+            android:layout_marginTop="212dp"
+            android:background="@drawable/gallery"
+            android:padding="12dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/uppdf"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_alignLeft="@+id/reg"
+            android:layout_alignStart="@+id/reg"
+            android:layout_below="@+id/upgallery"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/pdf"
+            android:padding="12dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/reg"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/uppdf"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/regi"
+            android:padding="12dp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ait"/>
+
+
+</RelativeLayout>
+

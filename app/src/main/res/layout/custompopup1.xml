@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="450dp"
+    android:background="#f8f6fa"
+    android:padding="35dp"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="15dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="#000"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/ic_launcher_background"/>
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="AIT(Assure India Technology)"
+        android:textColor="#080584"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+
+        android:text="Top Software Training Institute in Odisha, Best Computer Training Institute in Bhubaneswar,  Best Computer Training Institute in Odisha, Best IT Training Institute in Bhubaneswar, Placement Opportuninty through Software Training, Hardware training Institute, Software training Institute, Database  training Institute, Animation  training Institute, Top Software Training Organisation in Odisha,  Top Professional Software Training Institute in Odisha"
+        android:textColor="#000"
+        android:textSize="18dp" />
+    </ScrollView>
+
+
+</LinearLayout>

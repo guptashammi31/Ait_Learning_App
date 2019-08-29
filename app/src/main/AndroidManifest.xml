@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.live.ravi.chatdummy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logos"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity android:name=".MainActivity" /><![CDATA[
+        />
+        ]]>
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity android:name=".UploadPdfActivity" />
+        <activity android:name=".DisplayImagesActivity" />
+        <activity android:name=".ComplainMailActivity" />
+        <activity android:name=".AdmissionActivity" />
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".PdfviewActivity" />
+        <activity android:name=".AitWebsiteActivity" />
+        <activity android:name=".AitgalleryActivity" />
+        <activity android:name=".UploadGalleryActivity" />
+        <activity android:name=".DisplaySubjectActivity" />
+        <activity android:name=".GuestActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".AdminViewActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" />
+        <activity android:name=".ShowCoursesActivity" />
+        <activity android:name=".Search_on_googleActivity" />
+        <activity android:name=".About2Activity" />
+        <activity android:name=".FaqActivity" />
+        <activity android:name=".AboutusActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "610501845976",
+    "firebase_url": "https://aitproject-86709.firebaseio.com",
+    "project_id": "aitproject-86709",
+    "storage_bucket": "aitproject-86709.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610501845976:android:7180e487d8f3c255",
+        "android_client_info": {
+          "package_name": "com.live.ravi.chatdummy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610501845976-l7f8ttqptsjqrghgq99m7tm6i7c6d59i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOeAkh7tO_qlSw6VRETTM92OQG4JUJZzE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
